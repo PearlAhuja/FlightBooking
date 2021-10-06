@@ -1,21 +1,13 @@
 package com.example.flightBooking;
 
-public class User {
-	public User(String name, String email, String password) {
+public class AdminLogin {
+	public AdminLogin(String email, String password) {
 		super();
-		this.name = name;
 		this.email = email;
 		this.password = password;
 	}
-	private String name;
 	private String email;
 	private String password;
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
 	public String getEmail() {
 		return email;
 	}

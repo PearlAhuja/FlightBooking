@@ -1,6 +1,7 @@
-package com.example.demo;
+package com.example.flightBooking;
 
 public enum Meal {
-	VEG,
-	NONVEG
+None,
+NonVeg,
+Veg
 }
